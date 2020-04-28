@@ -61,4 +61,6 @@ def crawler(page):
     save_excel(result, column)
 
 #crawler()內輸入要爬蟲的頁數
+#page = input("輸入爬蟲頁數:")
+#crawler(int(page))
 crawler(2)
